@@ -1,6 +1,6 @@
 Name:           jdependency
 Version:        0.6
-Release:        4
+Release:        6
 Summary:        This project provides an API to analyse class dependencies
 
 Group:          Development/Java
