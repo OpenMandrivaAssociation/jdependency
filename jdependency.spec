@@ -4,7 +4,7 @@ Version:        0.7
 Release:        9.0%{?dist}
 Summary:        This project provides an API to analyse class dependencies
 License:        ASL 2.0
-URL:            http://github.com/tcurdt/%{name}
+URL:            https://github.com/tcurdt/%{name}
 BuildArch:      noarch
 
 Source0:        http://github.com/tcurdt/%{name}/archive/%{name}-%{version}.tar.gz
