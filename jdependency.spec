@@ -1,7 +1,7 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:           jdependency
-Version:        0.7
-Release:        9.0%{?dist}
+Version:        2.15
+Release:        1%{?dist}
 Summary:        This project provides an API to analyse class dependencies
 License:        ASL 2.0
 URL:            https://github.com/tcurdt/%{name}
@@ -26,8 +26,7 @@ Summary:        API documentation for %{name}
 %{summary}.
 
 %prep
-%setup -q -n %{name}-%{name}-%{version}
-%patch0
+%autosetup -p0 -n %{name}-%{name}-%{version}
 %mvn_file : %{name}
 
 %build
